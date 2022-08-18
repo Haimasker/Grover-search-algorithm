@@ -1,0 +1,3 @@
+[submodule "Qubit"]
+	path = Qubit
+	url = git@github.com:Haimasker/Qubit.git

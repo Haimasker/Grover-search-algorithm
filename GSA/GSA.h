@@ -9,4 +9,4 @@
 
 void singleGSA(unsigned, unsigned = 0);
 
-void multipleGSA(unsigned, unsigned = 0, std::vector<unsigned> = {});
+void multipleGSA(unsigned, std::set<unsigned> = {});

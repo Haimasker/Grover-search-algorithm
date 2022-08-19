@@ -75,7 +75,7 @@ void singleGSA(unsigned, unsigned = 0);
 * `multipleGSA` - takes qubit register size and vector of solution items indices. <br>
 If vector is empty then it determines randomly.
 ```cpp
-void multipleGSA(unsigned, unsigned = 0, std::vector<unsigned> = {});
+void multipleGSA(unsigned, std::set<unsigned> = {});
 ```
 
 ---
